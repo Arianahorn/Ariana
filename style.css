@@ -11,3 +11,12 @@ p2 {
     color: #FFBCD9;
     font-size: 35px;
 }
+table,
+td {
+    border: 2px solid #323232;
+}
+thead,
+tfoot {
+    background-color: lightblue;
+    color: #fff
+}
