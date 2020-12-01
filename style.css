@@ -20,3 +20,8 @@ tfoot {
     background-color: lightblue;
     color: #fff
 }
+form,
+label {
+    color: lightblue;
+    font: bold;
+}
