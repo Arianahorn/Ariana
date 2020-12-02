@@ -25,3 +25,7 @@ label {
     color: lightblue;
     font: bold;
 }
+nav,
+a {
+    font-size: 18px;
+}
