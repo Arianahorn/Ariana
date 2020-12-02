@@ -1,3 +1,3 @@
 # Ariana
 Hello, World!
-I am noooot ok 
+Cheer me on or mind your business.
