@@ -1,0 +1,29 @@
+/* Website Instruction */
+
+h1 {
+    font-size: 35px;
+    color: lightblue;
+    font-family: avenir;
+    text-align: center; 
+}
+h2 {
+    font-size: 25px;
+    font-family: avenir;
+    color: lightpink;
+    font-style: bold;
+}
+p {
+    font-family: roboto;
+    font-size: 14px;
+}
+.separator {
+    width: 750px;
+}
+.left {
+    float: left;
+    padding-right: 15px;
+}
+.right {
+    float: right;
+    padding-left: 15px;
+}
