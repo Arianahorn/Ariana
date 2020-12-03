@@ -6,19 +6,163 @@
     background-color: lightblue;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: cover;
     background-attachment: fixed;
+    font-family: avenir;
 }
 #pageTopic {
     text-align: center;
+    font-family: avenir;
+    font-size: 20px;
+    font-style: bold;
+    font-family: avenir;
 }
 /* Primary Color */
 .colorContainer {
     display: inline-block;
-    margin: 15px;
+    margin: 18px;
+    font-family: avenir;
 }
 .swatch {
     height: 200px;
     width: 170px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    font-family: avenir;
+}
+.hexCode {
+   padding: 15px;
+   text-align: center;
+   border: 2px solid black;
+   border-top: none;
+   border-bottom-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+   font-family: avenir;
+}
+.pastelBlue {
+  background-color: #78a2cc;
+}
+.pastelPink {
+  background-color: #fec8d8;
+}
+.pastelGreen {
+  background-color: #b8d8be;
+}
+.darkGrey {
+  background-color: #545454;
+}
+.white {
+  background-color: #ffffff;
+}
+
+/* Alter Colors */
+.darkPink {
+    background-color: #cd5e77;
+}
+.darkGreen {
+    background-color: #006847;
+}
+.oceanBlue {
+    background-color: #003366;
+}
+/* Text Colors */
+.black {
+    background-color: #323232;
+}
+
+
+.type_container {
+   display: inline-block;
+   margin: 20px;
+}
+.large {
+    text-align: left;
+    font-size: 66px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.light {
+    font-weight: 100;
+    font-family: avenir;
+}
+.regular {
+    font-weight: 500;
+    font-family: avenir;
+}
+.bold {
+    font-weight: 700;
+    font-family: avenir;
+}
+.typography h1 {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: avenir;
+}
+.typography h2 {
+    font-weight: 700;
+    font-size: 42px;
+    font-family: avenir;
+}
+.typography h3 {
+    font-weight: 700;
+    font-size: 34px;
+    font-family: avenir;
+}
+.typography h4 {
+    font-size: 26px;
+    font-family: avenir;
+}
+/* UI Elements */
+.button {
+   display: inline-block;
+   padding: 15px;
+   margin: 15px;
+   width: 150px;
+   border-radius: 18px;
+   font-size: 14px !important;
+   text-align: center;
+   color: white;
+   cursor: pointer;
+   font-family: avenir;
+   -webkit-user-select: none; /* Safari */
+ -ms-user-select: none; /* IE 10 and IE 11 */
+ user-select: none; /* Standard syntax */
+}
+.button:active {
+    box-shadow: inset 3px 3px 2px darkgray;
+}
+
+.primary {
+  background-color: lightpink;
+}
+.success {
+  background-color: rgb(243, 243, 78);
+}
+.danger {
+  background-color: rgb(177, 22, 22);
+}
+.warning {
+  background-color: rgb(255, 129, 45);
+}
+.info {
+  background-color: lightgreen;
+}
+.primaryActive {
+  background-color: #3A66B7;
+}
+.successActive {
+  background-color: #668C35;
+}
+.dangerActive {
+  background-color: #AD4848;
+}
+.warningActive {
+  background-color: #BA7A43;
+}
+.infoActive {
+  background-color: #4386BA;
+}
+.sectionHead {
+  border-bottom: 5px solid #DDDDDD;
 }
